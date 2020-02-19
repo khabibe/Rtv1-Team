@@ -8,46 +8,52 @@ camera:
 
 light:
   - origin:
-  30 0 0
+    -100 0 0
   - intensity:
   1
 
-object:
-  - name:
-  sphere
-  - center:
-   -3 0 0
-  - radius:
-  3
-  - ks:
-  1
-  - kd:
-  1
-  - n:
-  30
-  - color:
-  255
-  - rot:
-    off 30.0 60.0 70.0
-  - trans:
-    off 42 42 42
+light:
+    - origin:
+      -300 0 0
+    - intensity:
+    0.2
 
   object:
   - name:
   sphere
   - center:
-   0 0 0
+    1 1 1
   - radius:
-  3
+  20
   - ks:
-  1
+  0.2
   - kd:
-  1
+  0.9
   - n:
-  30
+  3
   - color:
   255
   - rot:
     off 30.0 60.0 70.0
   - trans:
-    off 42 42 42
+    off -100 -100 42
+
+    object:
+      - name:
+      sphere
+      - center:
+        -2 0 0
+      - radius:
+      20
+      - ks:
+      0.2
+      - kd:
+      0.9
+      - n:
+      3
+      - color:
+      255
+      - rot:
+        off 30.0 60.0 70.0
+      - trans:
+        off -100 -100 42
